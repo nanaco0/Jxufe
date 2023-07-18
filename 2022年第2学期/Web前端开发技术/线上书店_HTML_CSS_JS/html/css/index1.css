@@ -1,0 +1,100 @@
+body {
+    background-image: url(/images/祥云底纹.png);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255,0.6);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.book-cover {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    text-align: center;
+}
+.book-cover >img{
+    width: 300px;
+    padding:1em;
+}
+
+.book-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.book-author {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #666;
+}
+
+.book-description {
+    margin-top: 20px;
+}
+
+.book-price {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: url(/images/红色祥云.png);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.reviews {
+    margin-top: 20px;
+    padding: 1em;
+    background-color: rgba(236, 232, 228, 0.5);
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(127, 127, 127, 0.5);
+}
+
+.review {
+    margin-bottom: 10px;
+}
+
+.review-rating {
+    font-weight: bold;
+}
+
+.review-content {
+    margin-top: 5px;
+}
+
+.related-books {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.related-book {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(211, 211, 211, 0.3);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.related-book-image {
+    display: block;
+    width: 100px;
+    height: 150px;
+    margin: auto;
+}
+
+.related-book-title {
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em;
+}

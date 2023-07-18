@@ -1,0 +1,31 @@
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+
+#cen_right_top{
+    width:95%;
+    margin:40px auto 0 auto;
+}
+#cen_right_top .active{
+    background:url(/images/qiehuan.jpg) no-repeat;
+    color:#F3F3F3;
+}
+#cen_right_top h3{
+    line-height:35px;
+    text-align:center;
+    float:left;height:35px;
+    width:182px;margin:0px;
+    padding:0px;background-color:#F3F3F3;
+    font-size:14px;color:#333333;
+    font-weight:lighter;cursor:pointer;
+}
+#cen_right_top div{
+    font-size:14px;
+    display:none;
+    clear:both;
+    height:400px;
+    padding:20px 0px 0px 20px;
+    border-top-width:medium;
+    border-top-style:solid;
+    border-top-color:#792a1c;
+}
+

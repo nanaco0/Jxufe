@@ -1,0 +1,87 @@
+body{
+    background-image: url(/images/祥云底纹.png);
+}
+
+header{
+    height: 200px;
+}
+
+
+th{
+    font-size: 1em;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.middle {
+    width: 100%;
+	margin: auto;
+}
+
+#searchBlock{
+    height: 100px;
+    padding: 0.5em;
+}
+
+#searchBlock > table{
+    width:99%;
+    text-align: left;
+}
+#searchBar{
+    width: 480px;
+    height: 36px;
+    margin: 3px;
+    border-color: rgb(196, 196, 196);
+    border-radius: 6px;
+    border-style:solid;
+    background-image: url(/images/搜索按钮30px.png);
+    background-repeat: no-repeat;
+    background-position: right 3px;
+    float: right;
+}
+
+
+#navgationBlock{
+    height: 2em;
+    color: white;
+    padding: 0.5em;
+    background-image: url(/images/红色祥云.png);
+}
+
+.bookRow{
+    display: inline-block;
+    width: 19%;
+}
+.bookRow > img{
+    display: block;
+    width: 90%;
+}
+.bookCell{
+    margin: 3em;
+    text-align: center;
+
+}
+
+.bookCell > a{
+    text-decoration: none;
+    color: #792a1c;
+    padding: 0.5em;
+    
+}
+
+.bookCell > a:hover{
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* 底栏的样式 */
+.footer {
+    background-image: url(/images/红色祥云.png);
+    padding: 20px;
+    text-align: center;
+    color: rgb(140,140,140);
+}
+
+#row1{
+    height: 30%;
+}

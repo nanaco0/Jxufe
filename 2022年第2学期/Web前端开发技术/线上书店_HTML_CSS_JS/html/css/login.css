@@ -1,0 +1,57 @@
+body {
+  background-image: url(/images/祥云底纹.png);
+}
+
+.container {
+  max-width: 400px;
+  margin: 6% auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+h2 {
+  text-align: center;
+}
+  
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+  
+button {
+  width: 100%;
+  padding: 10px;
+  background-image: url(/images/红色祥云.png);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  font-weight: bold;
+}
+
+p{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #803939;
+}
+#header > img{
+  display: block;
+  margin: auto;
+}
+#error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
