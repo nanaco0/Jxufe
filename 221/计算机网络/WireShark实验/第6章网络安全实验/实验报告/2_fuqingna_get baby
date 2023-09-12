@@ -1,0 +1,26 @@
+220 Serv-U FTP Server v6.4 for WinSock ready...
+USER unixstu1
+331 User name okay, need password.
+PASS 123456
+230 User logged in, proceed.
+PORT 10,255,93,170,199,159
+200 PORT Command successful.
+NLST
+150 Opening ASCII mode data connection for /bin/ls.
+226-Maximum disk quota limited to 10240000 kBytes
+    Used disk quota 650442 kBytes, available 9589557 kBytes
+226 Transfer complete.
+PORT 10,255,93,170,199,163
+200 PORT Command successful.
+LIST
+150 Opening ASCII mode data connection for /bin/ls.
+226-Maximum disk quota limited to 10240000 kBytes
+    Used disk quota 650442 kBytes, available 9589557 kBytes
+226 Transfer complete.
+PORT 10,255,93,170,199,173
+200 PORT Command successful.
+RETR baby.jpg
+150 Opening ASCII mode data connection for baby.jpg (129673 Bytes).
+226-Maximum disk quota limited to 10240000 kBytes
+    Used disk quota 650442 kBytes, available 9589557 kBytes
+226 Transfer complete.
